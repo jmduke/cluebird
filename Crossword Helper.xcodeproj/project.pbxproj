@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26883FC31D9C5C3F008E8710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FC21D9C5C3F008E8710 /* AppDelegate.swift */; };
+		26883FC51D9C5C3F008E8710 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FC41D9C5C3F008E8710 /* FirstViewController.swift */; };
+		26883FC71D9C5C3F008E8710 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FC61D9C5C3F008E8710 /* SecondViewController.swift */; };
+		26883FCA1D9C5C3F008E8710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26883FC81D9C5C3F008E8710 /* Main.storyboard */; };
+		26883FCC1D9C5C3F008E8710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26883FCB1D9C5C3F008E8710 /* Assets.xcassets */; };
+		26883FCF1D9C5C3F008E8710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26883FCD1D9C5C3F008E8710 /* LaunchScreen.storyboard */; };
+		26883FDA1D9C5C3F008E8710 /* Crossword_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FD91D9C5C3F008E8710 /* Crossword_HelperTests.swift */; };
+		26883FE51D9C5C3F008E8710 /* Crossword_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FE41D9C5C3F008E8710 /* Crossword_HelperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26883FD61D9C5C3F008E8710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26883FB71D9C5C3F008E8710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26883FBE1D9C5C3F008E8710;
+			remoteInfo = "Crossword Helper";
+		};
+		26883FE11D9C5C3F008E8710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26883FB71D9C5C3F008E8710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26883FBE1D9C5C3F008E8710;
+			remoteInfo = "Crossword Helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26883FBF1D9C5C3F008E8710 /* Crossword Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crossword Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26883FC21D9C5C3F008E8710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26883FC41D9C5C3F008E8710 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		26883FC61D9C5C3F008E8710 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		26883FC91D9C5C3F008E8710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26883FCB1D9C5C3F008E8710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26883FCE1D9C5C3F008E8710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26883FD01D9C5C3F008E8710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26883FD51D9C5C3F008E8710 /* Crossword HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crossword HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26883FD91D9C5C3F008E8710 /* Crossword_HelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crossword_HelperTests.swift; sourceTree = "<group>"; };
+		26883FDB1D9C5C3F008E8710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26883FE01D9C5C3F008E8710 /* Crossword HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crossword HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26883FE41D9C5C3F008E8710 /* Crossword_HelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crossword_HelperUITests.swift; sourceTree = "<group>"; };
+		26883FE61D9C5C3F008E8710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26883FBC1D9C5C3F008E8710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26883FD21D9C5C3F008E8710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26883FDD1D9C5C3F008E8710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26883FB61D9C5C3F008E8710 = {
+			isa = PBXGroup;
+			children = (
+				26883FC11D9C5C3F008E8710 /* Crossword Helper */,
+				26883FD81D9C5C3F008E8710 /* Crossword HelperTests */,
+				26883FE31D9C5C3F008E8710 /* Crossword HelperUITests */,
+				26883FC01D9C5C3F008E8710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26883FC01D9C5C3F008E8710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26883FBF1D9C5C3F008E8710 /* Crossword Helper.app */,
+				26883FD51D9C5C3F008E8710 /* Crossword HelperTests.xctest */,
+				26883FE01D9C5C3F008E8710 /* Crossword HelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26883FC11D9C5C3F008E8710 /* Crossword Helper */ = {
+			isa = PBXGroup;
+			children = (
+				26883FC21D9C5C3F008E8710 /* AppDelegate.swift */,
+				26883FC41D9C5C3F008E8710 /* FirstViewController.swift */,
+				26883FC61D9C5C3F008E8710 /* SecondViewController.swift */,
+				26883FC81D9C5C3F008E8710 /* Main.storyboard */,
+				26883FCB1D9C5C3F008E8710 /* Assets.xcassets */,
+				26883FCD1D9C5C3F008E8710 /* LaunchScreen.storyboard */,
+				26883FD01D9C5C3F008E8710 /* Info.plist */,
+			);
+			path = "Crossword Helper";
+			sourceTree = "<group>";
+		};
+		26883FD81D9C5C3F008E8710 /* Crossword HelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				26883FD91D9C5C3F008E8710 /* Crossword_HelperTests.swift */,
+				26883FDB1D9C5C3F008E8710 /* Info.plist */,
+			);
+			path = "Crossword HelperTests";
+			sourceTree = "<group>";
+		};
+		26883FE31D9C5C3F008E8710 /* Crossword HelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26883FE41D9C5C3F008E8710 /* Crossword_HelperUITests.swift */,
+				26883FE61D9C5C3F008E8710 /* Info.plist */,
+			);
+			path = "Crossword HelperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26883FBE1D9C5C3F008E8710 /* Crossword Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26883FE91D9C5C3F008E8710 /* Build configuration list for PBXNativeTarget "Crossword Helper" */;
+			buildPhases = (
+				26883FBB1D9C5C3F008E8710 /* Sources */,
+				26883FBC1D9C5C3F008E8710 /* Frameworks */,
+				26883FBD1D9C5C3F008E8710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crossword Helper";
+			productName = "Crossword Helper";
+			productReference = 26883FBF1D9C5C3F008E8710 /* Crossword Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26883FD41D9C5C3F008E8710 /* Crossword HelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26883FEC1D9C5C3F008E8710 /* Build configuration list for PBXNativeTarget "Crossword HelperTests" */;
+			buildPhases = (
+				26883FD11D9C5C3F008E8710 /* Sources */,
+				26883FD21D9C5C3F008E8710 /* Frameworks */,
+				26883FD31D9C5C3F008E8710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26883FD71D9C5C3F008E8710 /* PBXTargetDependency */,
+			);
+			name = "Crossword HelperTests";
+			productName = "Crossword HelperTests";
+			productReference = 26883FD51D9C5C3F008E8710 /* Crossword HelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26883FDF1D9C5C3F008E8710 /* Crossword HelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26883FEF1D9C5C3F008E8710 /* Build configuration list for PBXNativeTarget "Crossword HelperUITests" */;
+			buildPhases = (
+				26883FDC1D9C5C3F008E8710 /* Sources */,
+				26883FDD1D9C5C3F008E8710 /* Frameworks */,
+				26883FDE1D9C5C3F008E8710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26883FE21D9C5C3F008E8710 /* PBXTargetDependency */,
+			);
+			name = "Crossword HelperUITests";
+			productName = "Crossword HelperUITests";
+			productReference = 26883FE01D9C5C3F008E8710 /* Crossword HelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26883FB71D9C5C3F008E8710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Pug and Chalice, LLC";
+				TargetAttributes = {
+					26883FBE1D9C5C3F008E8710 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					26883FD41D9C5C3F008E8710 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26883FBE1D9C5C3F008E8710;
+					};
+					26883FDF1D9C5C3F008E8710 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26883FBE1D9C5C3F008E8710;
+					};
+				};
+			};
+			buildConfigurationList = 26883FBA1D9C5C3F008E8710 /* Build configuration list for PBXProject "Crossword Helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26883FB61D9C5C3F008E8710;
+			productRefGroup = 26883FC01D9C5C3F008E8710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26883FBE1D9C5C3F008E8710 /* Crossword Helper */,
+				26883FD41D9C5C3F008E8710 /* Crossword HelperTests */,
+				26883FDF1D9C5C3F008E8710 /* Crossword HelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26883FBD1D9C5C3F008E8710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26883FCF1D9C5C3F008E8710 /* LaunchScreen.storyboard in Resources */,
+				26883FCC1D9C5C3F008E8710 /* Assets.xcassets in Resources */,
+				26883FCA1D9C5C3F008E8710 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26883FD31D9C5C3F008E8710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26883FDE1D9C5C3F008E8710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26883FBB1D9C5C3F008E8710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26883FC71D9C5C3F008E8710 /* SecondViewController.swift in Sources */,
+				26883FC31D9C5C3F008E8710 /* AppDelegate.swift in Sources */,
+				26883FC51D9C5C3F008E8710 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26883FD11D9C5C3F008E8710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26883FDA1D9C5C3F008E8710 /* Crossword_HelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26883FDC1D9C5C3F008E8710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26883FE51D9C5C3F008E8710 /* Crossword_HelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26883FD71D9C5C3F008E8710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26883FBE1D9C5C3F008E8710 /* Crossword Helper */;
+			targetProxy = 26883FD61D9C5C3F008E8710 /* PBXContainerItemProxy */;
+		};
+		26883FE21D9C5C3F008E8710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26883FBE1D9C5C3F008E8710 /* Crossword Helper */;
+			targetProxy = 26883FE11D9C5C3F008E8710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26883FC81D9C5C3F008E8710 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26883FC91D9C5C3F008E8710 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26883FCD1D9C5C3F008E8710 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26883FCE1D9C5C3F008E8710 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26883FE71D9C5C3F008E8710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26883FE81D9C5C3F008E8710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26883FEA1D9C5C3F008E8710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crossword Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pugandchalice.Crossword-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		26883FEB1D9C5C3F008E8710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crossword Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pugandchalice.Crossword-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		26883FED1D9C5C3F008E8710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crossword HelperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pugandchalice.Crossword-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crossword Helper.app/Crossword Helper";
+			};
+			name = Debug;
+		};
+		26883FEE1D9C5C3F008E8710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crossword HelperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pugandchalice.Crossword-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crossword Helper.app/Crossword Helper";
+			};
+			name = Release;
+		};
+		26883FF01D9C5C3F008E8710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Crossword HelperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pugandchalice.Crossword-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Crossword Helper";
+			};
+			name = Debug;
+		};
+		26883FF11D9C5C3F008E8710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Crossword HelperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pugandchalice.Crossword-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Crossword Helper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26883FBA1D9C5C3F008E8710 /* Build configuration list for PBXProject "Crossword Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26883FE71D9C5C3F008E8710 /* Debug */,
+				26883FE81D9C5C3F008E8710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26883FE91D9C5C3F008E8710 /* Build configuration list for PBXNativeTarget "Crossword Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26883FEA1D9C5C3F008E8710 /* Debug */,
+				26883FEB1D9C5C3F008E8710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26883FEC1D9C5C3F008E8710 /* Build configuration list for PBXNativeTarget "Crossword HelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26883FED1D9C5C3F008E8710 /* Debug */,
+				26883FEE1D9C5C3F008E8710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26883FEF1D9C5C3F008E8710 /* Build configuration list for PBXNativeTarget "Crossword HelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26883FF01D9C5C3F008E8710 /* Debug */,
+				26883FF11D9C5C3F008E8710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26883FB71D9C5C3F008E8710 /* Project object */;
+}
