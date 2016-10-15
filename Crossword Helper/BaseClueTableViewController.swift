@@ -32,7 +32,8 @@ class BaseClueTableViewController: UITableViewController, UISearchBarDelegate, U
     
     // Views.
     var bannerView: GADBannerView = {
-        let view = GADBannerView(adSize: kGADAdSizeFullBanner)
+        let adSize = UIDevice.current.orientation == .portrait ? kGADAdSizeSmartBannerPortrait : kGADAdSizeSmartBannerLandscape
+        let view = GADBannerView(adSize: adSize)
         view.adUnitID = Constants.adMobAdUnitId
         return view
     }()

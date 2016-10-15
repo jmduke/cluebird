@@ -52,13 +52,12 @@ class ClueBootstrapper {
                     let length = $0["answerLength"] as! Int
                     try! stmt.run(answer, clue, length)
                 }
+            }
         }
         
     }
     
     func needsBootstrap() -> Bool {
         return false
-        //return try! db.fetch(FetchRequest<ClueAnswerPair>()).isEmpty
     }
 }
-
