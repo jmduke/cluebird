@@ -5,7 +5,10 @@
 //  Created by Justin Duke on 9/28/16.
 //  Copyright © 2016 Pug and Chalice, LLC. All rights reserved.
 //
-
+import Armchair
+import Crashlytics
+import Fabric
+import GoogleMobileAds
 import UIKit
 
 @UIApplicationMain
@@ -15,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        Armchair.appID(Constants.appId)
+        Fabric.with([Crashlytics.self])
+        GADMobileAds.configure(withApplicationID: Constants.adMobAppId)
         // Override point for customization after application launch.
         return true
     }

@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220AB900588010BF66D1EC1E /* Pods_Crossword_HelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3957469229980F3FE45234E4 /* Pods_Crossword_HelperTests.framework */; };
+		2605EE771DA6B4AF002D31F8 /* BaseClueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2605EE761DA6B4AF002D31F8 /* BaseClueTableViewController.swift */; };
+		26072E6F1DA5B267004F4E7F /* FittingAnswerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26072E6E1DA5B267004F4E7F /* FittingAnswerTableViewController.swift */; };
+		2610BFE61DAD47580073B991 /* ClueAnswerPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2610BFE51DAD47580073B991 /* ClueAnswerPair.swift */; };
+		2610BFE81DAD4F360073B991 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2610BFE71DAD4F360073B991 /* Storage.swift */; };
+		264D00541DA428F50066FE34 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264D00531DA428F50066FE34 /* String+Extensions.swift */; };
+		264D00561DA42DE30066FE34 /* FilteringMethodPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264D00551DA42DE30066FE34 /* FilteringMethodPopoverView.swift */; };
+		264D00581DA42F4C0066FE34 /* AnswerResultFilteringMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264D00571DA42F4C0066FE34 /* AnswerResultFilteringMethod.swift */; };
+		268528F81DA351F900BF21E9 /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268528F71DA351F900BF21E9 /* Sequence+Extensions.swift */; };
+		268528FB1DA3528200BF21E9 /* AnswerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268528FA1DA3528200BF21E9 /* AnswerResult.swift */; };
+		268528FE1DA352A500BF21E9 /* AnswerResultSortingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268528FD1DA352A500BF21E9 /* AnswerResultSortingMethod.swift */; };
+		268529011DA3549800BF21E9 /* SortingMethodPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268529001DA3549800BF21E9 /* SortingMethodPopoverView.swift */; };
+		268529051DA3559200BF21E9 /* ClueBootstrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268529041DA3559200BF21E9 /* ClueBootstrapper.swift */; };
+		268529091DA3569500BF21E9 /* AnswerResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268529081DA3569500BF21E9 /* AnswerResultCell.swift */; };
 		26883FC31D9C5C3F008E8710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FC21D9C5C3F008E8710 /* AppDelegate.swift */; };
-		26883FC51D9C5C3F008E8710 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FC41D9C5C3F008E8710 /* FirstViewController.swift */; };
-		26883FC71D9C5C3F008E8710 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FC61D9C5C3F008E8710 /* SecondViewController.swift */; };
 		26883FCA1D9C5C3F008E8710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26883FC81D9C5C3F008E8710 /* Main.storyboard */; };
 		26883FCC1D9C5C3F008E8710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26883FCB1D9C5C3F008E8710 /* Assets.xcassets */; };
 		26883FCF1D9C5C3F008E8710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26883FCD1D9C5C3F008E8710 /* LaunchScreen.storyboard */; };
 		26883FDA1D9C5C3F008E8710 /* Crossword_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FD91D9C5C3F008E8710 /* Crossword_HelperTests.swift */; };
 		26883FE51D9C5C3F008E8710 /* Crossword_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FE41D9C5C3F008E8710 /* Crossword_HelperUITests.swift */; };
+		26883FF31D9C5F31008E8710 /* ClueSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FF21D9C5F31008E8710 /* ClueSearchTableViewController.swift */; };
+		269F5F3C1DB045EE00E412E1 /* clues.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 269F5F3B1DB044CE00E412E1 /* clues.sqlite3 */; };
+		26D540EC1DABEF6300E9A22E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D540EB1DABEF6300E9A22E /* Constants.swift */; };
+		26FD402E1D9D7AD0001D2AB8 /* ClueSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD402D1D9D7AD0001D2AB8 /* ClueSearcher.swift */; };
+		B7525D6D8522A0A47D4A4CD4 /* Pods_Crossword_HelperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6F2FB5E8EE77E7859FE4AB /* Pods_Crossword_HelperUITests.framework */; };
+		F42DA87D94690FA717EEEAC8 /* Pods_Crossword_Helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95419104B002114DCCB069CE /* Pods_Crossword_Helper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +53,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08395E48441875DB5F6CCD0D /* Pods-Crossword HelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crossword HelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crossword HelperTests/Pods-Crossword HelperTests.release.xcconfig"; sourceTree = "<group>"; };
+		0C6F2FB5E8EE77E7859FE4AB /* Pods_Crossword_HelperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crossword_HelperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2605EE761DA6B4AF002D31F8 /* BaseClueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClueTableViewController.swift; sourceTree = "<group>"; };
+		26072E6E1DA5B267004F4E7F /* FittingAnswerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FittingAnswerTableViewController.swift; sourceTree = "<group>"; };
+		2610BFE51DAD47580073B991 /* ClueAnswerPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClueAnswerPair.swift; sourceTree = "<group>"; };
+		2610BFE71DAD4F360073B991 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		264D00531DA428F50066FE34 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		264D00551DA42DE30066FE34 /* FilteringMethodPopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteringMethodPopoverView.swift; sourceTree = "<group>"; };
+		264D00571DA42F4C0066FE34 /* AnswerResultFilteringMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerResultFilteringMethod.swift; sourceTree = "<group>"; };
+		268528F71DA351F900BF21E9 /* Sequence+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+Extensions.swift"; sourceTree = "<group>"; };
+		268528FA1DA3528200BF21E9 /* AnswerResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerResult.swift; sourceTree = "<group>"; };
+		268528FD1DA352A500BF21E9 /* AnswerResultSortingMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerResultSortingMethod.swift; sourceTree = "<group>"; };
+		268529001DA3549800BF21E9 /* SortingMethodPopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortingMethodPopoverView.swift; sourceTree = "<group>"; };
+		268529041DA3559200BF21E9 /* ClueBootstrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClueBootstrapper.swift; sourceTree = "<group>"; };
+		268529081DA3569500BF21E9 /* AnswerResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerResultCell.swift; sourceTree = "<group>"; };
 		26883FBF1D9C5C3F008E8710 /* Crossword Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crossword Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26883FC21D9C5C3F008E8710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26883FC41D9C5C3F008E8710 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		26883FC61D9C5C3F008E8710 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		26883FC91D9C5C3F008E8710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26883FCB1D9C5C3F008E8710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26883FCE1D9C5C3F008E8710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +80,17 @@
 		26883FE01D9C5C3F008E8710 /* Crossword HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crossword HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26883FE41D9C5C3F008E8710 /* Crossword_HelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crossword_HelperUITests.swift; sourceTree = "<group>"; };
 		26883FE61D9C5C3F008E8710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26883FF21D9C5F31008E8710 /* ClueSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClueSearchTableViewController.swift; sourceTree = "<group>"; };
+		269F5F3B1DB044CE00E412E1 /* clues.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = clues.sqlite3; sourceTree = "<group>"; };
+		26D540EB1DABEF6300E9A22E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		26FD402D1D9D7AD0001D2AB8 /* ClueSearcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClueSearcher.swift; sourceTree = "<group>"; };
+		27A6B7B35A1B018B534F1322 /* Pods-Crossword Helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crossword Helper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crossword Helper/Pods-Crossword Helper.release.xcconfig"; sourceTree = "<group>"; };
+		2FB032AC233D9AF3E94FAB39 /* Pods-Crossword Helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crossword Helper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crossword Helper/Pods-Crossword Helper.debug.xcconfig"; sourceTree = "<group>"; };
+		36E81EB530C94443FBE05F2A /* Pods-Crossword HelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crossword HelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crossword HelperTests/Pods-Crossword HelperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3957469229980F3FE45234E4 /* Pods_Crossword_HelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crossword_HelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95419104B002114DCCB069CE /* Pods_Crossword_Helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crossword_Helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C8CCAC4A95C6978F6B355A /* Pods-Crossword HelperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crossword HelperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crossword HelperUITests/Pods-Crossword HelperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2FE37652728BE12F997898E /* Pods-Crossword HelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crossword HelperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crossword HelperUITests/Pods-Crossword HelperUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42DA87D94690FA717EEEAC8 /* Pods_Crossword_Helper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220AB900588010BF66D1EC1E /* Pods_Crossword_HelperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +114,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7525D6D8522A0A47D4A4CD4 /* Pods_Crossword_HelperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C6AAD7EAA2062DE094541B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95419104B002114DCCB069CE /* Pods_Crossword_Helper.framework */,
+				3957469229980F3FE45234E4 /* Pods_Crossword_HelperTests.framework */,
+				0C6F2FB5E8EE77E7859FE4AB /* Pods_Crossword_HelperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		268528F61DA351C600BF21E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				268528F71DA351F900BF21E9 /* Sequence+Extensions.swift */,
+				264D00531DA428F50066FE34 /* String+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		268528F91DA3526800BF21E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2610BFE51DAD47580073B991 /* ClueAnswerPair.swift */,
+				268528FA1DA3528200BF21E9 /* AnswerResult.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		268528FC1DA3529900BF21E9 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				268528FD1DA352A500BF21E9 /* AnswerResultSortingMethod.swift */,
+				264D00571DA42F4C0066FE34 /* AnswerResultFilteringMethod.swift */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		268528FF1DA3548C00BF21E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				268529001DA3549800BF21E9 /* SortingMethodPopoverView.swift */,
+				268529081DA3569500BF21E9 /* AnswerResultCell.swift */,
+				264D00551DA42DE30066FE34 /* FilteringMethodPopoverView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		268529021DA354A200BF21E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				26883FF21D9C5F31008E8710 /* ClueSearchTableViewController.swift */,
+				26072E6E1DA5B267004F4E7F /* FittingAnswerTableViewController.swift */,
+				2605EE761DA6B4AF002D31F8 /* BaseClueTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		268529031DA3553B00BF21E9 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				268529041DA3559200BF21E9 /* ClueBootstrapper.swift */,
+				26FD402D1D9D7AD0001D2AB8 /* ClueSearcher.swift */,
+				2610BFE71DAD4F360073B991 /* Storage.swift */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
 		26883FB61D9C5C3F008E8710 = {
 			isa = PBXGroup;
 			children = (
+				269F5F3B1DB044CE00E412E1 /* clues.sqlite3 */,
 				26883FC11D9C5C3F008E8710 /* Crossword Helper */,
 				26883FD81D9C5C3F008E8710 /* Crossword HelperTests */,
 				26883FE31D9C5C3F008E8710 /* Crossword HelperUITests */,
 				26883FC01D9C5C3F008E8710 /* Products */,
+				6CB3B0628F078BDF735BE697 /* Pods */,
+				0C6AAD7EAA2062DE094541B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +214,18 @@
 		26883FC11D9C5C3F008E8710 /* Crossword Helper */ = {
 			isa = PBXGroup;
 			children = (
+				268529031DA3553B00BF21E9 /* Logic */,
+				268529021DA354A200BF21E9 /* Controllers */,
+				268528FF1DA3548C00BF21E9 /* Views */,
+				268528FC1DA3529900BF21E9 /* Enums */,
+				268528F91DA3526800BF21E9 /* Models */,
+				268528F61DA351C600BF21E9 /* Extensions */,
 				26883FC21D9C5C3F008E8710 /* AppDelegate.swift */,
-				26883FC41D9C5C3F008E8710 /* FirstViewController.swift */,
-				26883FC61D9C5C3F008E8710 /* SecondViewController.swift */,
 				26883FC81D9C5C3F008E8710 /* Main.storyboard */,
 				26883FCB1D9C5C3F008E8710 /* Assets.xcassets */,
 				26883FCD1D9C5C3F008E8710 /* LaunchScreen.storyboard */,
 				26883FD01D9C5C3F008E8710 /* Info.plist */,
+				26D540EB1DABEF6300E9A22E /* Constants.swift */,
 			);
 			path = "Crossword Helper";
 			sourceTree = "<group>";
@@ -128,6 +248,19 @@
 			path = "Crossword HelperUITests";
 			sourceTree = "<group>";
 		};
+		6CB3B0628F078BDF735BE697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FB032AC233D9AF3E94FAB39 /* Pods-Crossword Helper.debug.xcconfig */,
+				27A6B7B35A1B018B534F1322 /* Pods-Crossword Helper.release.xcconfig */,
+				36E81EB530C94443FBE05F2A /* Pods-Crossword HelperTests.debug.xcconfig */,
+				08395E48441875DB5F6CCD0D /* Pods-Crossword HelperTests.release.xcconfig */,
+				C9C8CCAC4A95C6978F6B355A /* Pods-Crossword HelperUITests.debug.xcconfig */,
+				F2FE37652728BE12F997898E /* Pods-Crossword HelperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +268,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26883FE91D9C5C3F008E8710 /* Build configuration list for PBXNativeTarget "Crossword Helper" */;
 			buildPhases = (
+				47CED15EA744A4B93A1A6416 /* [CP] Check Pods Manifest.lock */,
 				26883FBB1D9C5C3F008E8710 /* Sources */,
 				26883FBC1D9C5C3F008E8710 /* Frameworks */,
 				26883FBD1D9C5C3F008E8710 /* Resources */,
+				A8E2B7192593CC7FE31E0CAC /* [CP] Embed Pods Frameworks */,
+				C852FF99CCBDAFAE1D632AE5 /* [CP] Copy Pods Resources */,
+				2653790D1DAB5480002DD384 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,9 +289,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26883FEC1D9C5C3F008E8710 /* Build configuration list for PBXNativeTarget "Crossword HelperTests" */;
 			buildPhases = (
+				EE38904EE6A409D5CB12BCDC /* [CP] Check Pods Manifest.lock */,
 				26883FD11D9C5C3F008E8710 /* Sources */,
 				26883FD21D9C5C3F008E8710 /* Frameworks */,
 				26883FD31D9C5C3F008E8710 /* Resources */,
+				8891BCDFEE16CFA0C50109C3 /* [CP] Embed Pods Frameworks */,
+				BB3AB5A5AED60E6BEDD18C47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26883FEF1D9C5C3F008E8710 /* Build configuration list for PBXNativeTarget "Crossword HelperUITests" */;
 			buildPhases = (
+				0F6BB47C6F5A4D6E4665FDA4 /* [CP] Check Pods Manifest.lock */,
 				26883FDC1D9C5C3F008E8710 /* Sources */,
 				26883FDD1D9C5C3F008E8710 /* Frameworks */,
 				26883FDE1D9C5C3F008E8710 /* Resources */,
+				5793B43EBBE1BAAA5CB6F119 /* [CP] Embed Pods Frameworks */,
+				A087CC7C9BB2472FA1BE8199 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +339,7 @@
 				TargetAttributes = {
 					26883FBE1D9C5C3F008E8710 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 427H7S4STR;
 						ProvisioningStyle = Automatic;
 					};
 					26883FD41D9C5C3F008E8710 = {
@@ -235,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269F5F3C1DB045EE00E412E1 /* clues.sqlite3 in Resources */,
 				26883FCF1D9C5C3F008E8710 /* LaunchScreen.storyboard in Resources */,
 				26883FCC1D9C5C3F008E8710 /* Assets.xcassets in Resources */,
 				26883FCA1D9C5C3F008E8710 /* Main.storyboard in Resources */,
@@ -257,14 +402,179 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F6BB47C6F5A4D6E4665FDA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2653790D1DAB5480002DD384 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" b21abab076529471999739c2a18416d263773917 3f1965567426b8412514a0520b8742ecc6cc85cf169361689d21ca8435e82991";
+		};
+		47CED15EA744A4B93A1A6416 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5793B43EBBE1BAAA5CB6F119 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crossword HelperUITests/Pods-Crossword HelperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8891BCDFEE16CFA0C50109C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crossword HelperTests/Pods-Crossword HelperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A087CC7C9BB2472FA1BE8199 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crossword HelperUITests/Pods-Crossword HelperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E2B7192593CC7FE31E0CAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crossword Helper/Pods-Crossword Helper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3AB5A5AED60E6BEDD18C47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crossword HelperTests/Pods-Crossword HelperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C852FF99CCBDAFAE1D632AE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crossword Helper/Pods-Crossword Helper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE38904EE6A409D5CB12BCDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26883FBB1D9C5C3F008E8710 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26883FC71D9C5C3F008E8710 /* SecondViewController.swift in Sources */,
+				264D00561DA42DE30066FE34 /* FilteringMethodPopoverView.swift in Sources */,
+				268528F81DA351F900BF21E9 /* Sequence+Extensions.swift in Sources */,
+				264D00541DA428F50066FE34 /* String+Extensions.swift in Sources */,
+				26883FF31D9C5F31008E8710 /* ClueSearchTableViewController.swift in Sources */,
+				268529091DA3569500BF21E9 /* AnswerResultCell.swift in Sources */,
+				26072E6F1DA5B267004F4E7F /* FittingAnswerTableViewController.swift in Sources */,
+				268529011DA3549800BF21E9 /* SortingMethodPopoverView.swift in Sources */,
+				26D540EC1DABEF6300E9A22E /* Constants.swift in Sources */,
+				2610BFE81DAD4F360073B991 /* Storage.swift in Sources */,
+				268528FE1DA352A500BF21E9 /* AnswerResultSortingMethod.swift in Sources */,
+				268528FB1DA3528200BF21E9 /* AnswerResult.swift in Sources */,
+				264D00581DA42F4C0066FE34 /* AnswerResultFilteringMethod.swift in Sources */,
 				26883FC31D9C5C3F008E8710 /* AppDelegate.swift in Sources */,
-				26883FC51D9C5C3F008E8710 /* FirstViewController.swift in Sources */,
+				26FD402E1D9D7AD0001D2AB8 /* ClueSearcher.swift in Sources */,
+				268529051DA3559200BF21E9 /* ClueBootstrapper.swift in Sources */,
+				2610BFE61DAD47580073B991 /* ClueAnswerPair.swift in Sources */,
+				2605EE771DA6B4AF002D31F8 /* BaseClueTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,11 +724,13 @@
 		};
 		26883FEA1D9C5C3F008E8710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB032AC233D9AF3E94FAB39 /* Pods-Crossword Helper.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = 427H7S4STR;
 				INFOPLIST_FILE = "Crossword Helper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pugandchalice.Crossword-Helper";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmduke.Cluebird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -426,11 +738,13 @@
 		};
 		26883FEB1D9C5C3F008E8710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A6B7B35A1B018B534F1322 /* Pods-Crossword Helper.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = 427H7S4STR;
 				INFOPLIST_FILE = "Crossword Helper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pugandchalice.Crossword-Helper";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmduke.Cluebird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -438,6 +752,7 @@
 		};
 		26883FED1D9C5C3F008E8710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E81EB530C94443FBE05F2A /* Pods-Crossword HelperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +767,7 @@
 		};
 		26883FEE1D9C5C3F008E8710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08395E48441875DB5F6CCD0D /* Pods-Crossword HelperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +782,7 @@
 		};
 		26883FF01D9C5C3F008E8710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C8CCAC4A95C6978F6B355A /* Pods-Crossword HelperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Crossword HelperUITests/Info.plist";
@@ -479,6 +796,7 @@
 		};
 		26883FF11D9C5C3F008E8710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FE37652728BE12F997898E /* Pods-Crossword HelperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Crossword HelperUITests/Info.plist";
@@ -509,6 +827,7 @@
 				26883FEB1D9C5C3F008E8710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26883FEC1D9C5C3F008E8710 /* Build configuration list for PBXNativeTarget "Crossword HelperTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +836,7 @@
 				26883FEE1D9C5C3F008E8710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26883FEF1D9C5C3F008E8710 /* Build configuration list for PBXNativeTarget "Crossword HelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +845,7 @@
 				26883FF11D9C5C3F008E8710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
