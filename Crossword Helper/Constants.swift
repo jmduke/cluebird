@@ -13,4 +13,5 @@ struct Constants {
     static let appId = "1162829250"
     static let adMobAppId = "ca-app-pub-6873377384965157~9013207029"
     static let adMobAdUnitId = "ca-app-pub-6873377384965157/1489940222"
+    static let testDevices = ["3c91a72622e3dfd0ac2b98ecf3a6cf47"]
 }

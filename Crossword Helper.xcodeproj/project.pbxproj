@@ -21,6 +21,7 @@
 		268529011DA3549800BF21E9 /* SortingMethodPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268529001DA3549800BF21E9 /* SortingMethodPopoverView.swift */; };
 		268529051DA3559200BF21E9 /* ClueBootstrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268529041DA3559200BF21E9 /* ClueBootstrapper.swift */; };
 		268529091DA3569500BF21E9 /* AnswerResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268529081DA3569500BF21E9 /* AnswerResultCell.swift */; };
+		268680321DB3EF13007AFC79 /* clues.sqlite3.zip in Resources */ = {isa = PBXBuildFile; fileRef = 268680311DB3EF13007AFC79 /* clues.sqlite3.zip */; };
 		26883FC31D9C5C3F008E8710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FC21D9C5C3F008E8710 /* AppDelegate.swift */; };
 		26883FCA1D9C5C3F008E8710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26883FC81D9C5C3F008E8710 /* Main.storyboard */; };
 		26883FCC1D9C5C3F008E8710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26883FCB1D9C5C3F008E8710 /* Assets.xcassets */; };
@@ -28,7 +29,6 @@
 		26883FDA1D9C5C3F008E8710 /* Crossword_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FD91D9C5C3F008E8710 /* Crossword_HelperTests.swift */; };
 		26883FE51D9C5C3F008E8710 /* Crossword_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FE41D9C5C3F008E8710 /* Crossword_HelperUITests.swift */; };
 		26883FF31D9C5F31008E8710 /* ClueSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26883FF21D9C5F31008E8710 /* ClueSearchTableViewController.swift */; };
-		269F5F3C1DB045EE00E412E1 /* clues.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 269F5F3B1DB044CE00E412E1 /* clues.sqlite3 */; };
 		26D540EC1DABEF6300E9A22E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D540EB1DABEF6300E9A22E /* Constants.swift */; };
 		26FD402E1D9D7AD0001D2AB8 /* ClueSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD402D1D9D7AD0001D2AB8 /* ClueSearcher.swift */; };
 		B7525D6D8522A0A47D4A4CD4 /* Pods_Crossword_HelperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6F2FB5E8EE77E7859FE4AB /* Pods_Crossword_HelperUITests.framework */; };
@@ -68,6 +68,8 @@
 		268529001DA3549800BF21E9 /* SortingMethodPopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortingMethodPopoverView.swift; sourceTree = "<group>"; };
 		268529041DA3559200BF21E9 /* ClueBootstrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClueBootstrapper.swift; sourceTree = "<group>"; };
 		268529081DA3569500BF21E9 /* AnswerResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerResultCell.swift; sourceTree = "<group>"; };
+		268680301DB3EE3D007AFC79 /* clues.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = clues.sqlite3; sourceTree = "<group>"; };
+		268680311DB3EF13007AFC79 /* clues.sqlite3.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = clues.sqlite3.zip; sourceTree = "<group>"; };
 		26883FBF1D9C5C3F008E8710 /* Crossword Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crossword Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26883FC21D9C5C3F008E8710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26883FC91D9C5C3F008E8710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,7 +83,6 @@
 		26883FE41D9C5C3F008E8710 /* Crossword_HelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crossword_HelperUITests.swift; sourceTree = "<group>"; };
 		26883FE61D9C5C3F008E8710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26883FF21D9C5F31008E8710 /* ClueSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClueSearchTableViewController.swift; sourceTree = "<group>"; };
-		269F5F3B1DB044CE00E412E1 /* clues.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = clues.sqlite3; sourceTree = "<group>"; };
 		26D540EB1DABEF6300E9A22E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		26FD402D1D9D7AD0001D2AB8 /* ClueSearcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClueSearcher.swift; sourceTree = "<group>"; };
 		27A6B7B35A1B018B534F1322 /* Pods-Crossword Helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crossword Helper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crossword Helper/Pods-Crossword Helper.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 		0C6AAD7EAA2062DE094541B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				268680301DB3EE3D007AFC79 /* clues.sqlite3 */,
 				95419104B002114DCCB069CE /* Pods_Crossword_Helper.framework */,
 				3957469229980F3FE45234E4 /* Pods_Crossword_HelperTests.framework */,
 				0C6F2FB5E8EE77E7859FE4AB /* Pods_Crossword_HelperUITests.framework */,
@@ -191,7 +193,6 @@
 		26883FB61D9C5C3F008E8710 = {
 			isa = PBXGroup;
 			children = (
-				269F5F3B1DB044CE00E412E1 /* clues.sqlite3 */,
 				26883FC11D9C5C3F008E8710 /* Crossword Helper */,
 				26883FD81D9C5C3F008E8710 /* Crossword HelperTests */,
 				26883FE31D9C5C3F008E8710 /* Crossword HelperUITests */,
@@ -226,6 +227,7 @@
 				26883FCD1D9C5C3F008E8710 /* LaunchScreen.storyboard */,
 				26883FD01D9C5C3F008E8710 /* Info.plist */,
 				26D540EB1DABEF6300E9A22E /* Constants.swift */,
+				268680311DB3EF13007AFC79 /* clues.sqlite3.zip */,
 			);
 			path = "Crossword Helper";
 			sourceTree = "<group>";
@@ -379,8 +381,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269F5F3C1DB045EE00E412E1 /* clues.sqlite3 in Resources */,
 				26883FCF1D9C5C3F008E8710 /* LaunchScreen.storyboard in Resources */,
+				268680321DB3EF13007AFC79 /* clues.sqlite3.zip in Resources */,
 				26883FCC1D9C5C3F008E8710 /* Assets.xcassets in Resources */,
 				26883FCA1D9C5C3F008E8710 /* Main.storyboard in Resources */,
 			);

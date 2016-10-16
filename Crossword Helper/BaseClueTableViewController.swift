@@ -33,7 +33,7 @@ class BaseClueTableViewController: UITableViewController, UISearchBarDelegate, U
     // Views.
     var bannerView: GADBannerView = {
         let adSize = UIDevice.current.orientation == .portrait ? kGADAdSizeSmartBannerPortrait : kGADAdSizeSmartBannerLandscape
-        let view = GADBannerView(adSize: adSize)
+        let view = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
         view.adUnitID = Constants.adMobAdUnitId
         return view
     }()
@@ -82,7 +82,7 @@ class BaseClueTableViewController: UITableViewController, UISearchBarDelegate, U
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.section == 0 {
-            return 60
+            return CGSizeFromGADAdSize(UIDevice.current.orientation == .portrait ? kGADAdSizeSmartBannerPortrait : kGADAdSizeSmartBannerLandscape).height
         } else {
             return 44
         }
@@ -134,7 +134,9 @@ class BaseClueTableViewController: UITableViewController, UISearchBarDelegate, U
         definesPresentationContext = true
         
         bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+        let adRequest = GADRequest()
+        adRequest.testDevices = Constants.testDevices
+        bannerView.load(adRequest)
         
         tableView.tableHeaderView = searchController.searchBar
         

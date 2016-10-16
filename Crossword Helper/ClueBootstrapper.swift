@@ -12,18 +12,18 @@ import Zip
 // TODO: Abstract all of this the hell out.
 class ClueBootstrapper {
     func bootstrap() {
-        let zipPath = Bundle.main.url(forResource: "clues.csv", withExtension: "zip")!
+        let zipPath = Bundle.main.url(forResource: "culled_clues.csv", withExtension: "zip")!
         let unzipDirectory = try! Zip.quickUnzipFile(zipPath)
-        let unzipFile = unzipDirectory.appendingPathComponent("clues.csv")
+        let unzipFile = unzipDirectory.appendingPathComponent("culled_clues.csv")
         let resourceString = try! String(contentsOf: unzipFile)
         let mapper: (String) -> [String:Any] = {[
-            "clue": $0.components(separatedBy: ",")[1],
-            "answer": $0.components(separatedBy: ",")[2],
-            "answerLength": $0.components(separatedBy: ",")[2].lengthOfBytes(using: .utf8)
+            "clue": $0.components(separatedBy: ",")[0],
+            "answer": $0.components(separatedBy: ",")[1],
+            "answerLength": $0.components(separatedBy: ",")[1].lengthOfBytes(using: .utf8)
         ]}
         let strings = resourceString
             .components(separatedBy: "\n")
-            .filter({ $0.components(separatedBy: ",").count == 3 })
+            .filter({ $0.components(separatedBy: ",").count == 2 })
             .map(mapper)
         
         let users = Table("clues")
