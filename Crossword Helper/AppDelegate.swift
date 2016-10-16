@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         Armchair.appID(Constants.appId)
-        Fabric.with([Crashlytics.self])
+        Fabric.with([Answers.self, Crashlytics.self])
         GADMobileAds.configure(withApplicationID: Constants.adMobAppId)
         // Override point for customization after application launch.
         return true
