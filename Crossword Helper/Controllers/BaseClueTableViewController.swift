@@ -37,6 +37,7 @@ class BaseClueTableViewController: UITableViewController, UISearchBarDelegate, U
         view.adUnitID = Constants.adMobAdUnitId
         return view
     }()
+    var progressView: MBProgressHUD?
     
     // Objects.
     var clueSearcher = ClueSearcher()
@@ -65,13 +66,15 @@ class BaseClueTableViewController: UITableViewController, UISearchBarDelegate, U
         searchQueue.cancelAllOperations()
         searchQueue.addOperation {
             Async.main {
-                let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
-                hud.label.text = "Searching"
+                if self.progressView == nil || self.progressView!.alpha == CGFloat(0) {
+                    self.progressView = MBProgressHUD.showAdded(to: self.view, animated: true)
+                    self.progressView?.label.text = "Searching"
+                }
                 UIApplication.shared.beginIgnoringInteractionEvents()
                 }.background {_ in
                     self.matchingAnswers = self.findMatchingAnswers(searchText: searchText)
                 }.main {
-                    MBProgressHUD.hideAllHUDs(for: self.view, animated: true)
+                    self.progressView?.hide(animated: true)
                     UIApplication.shared.endIgnoringInteractionEvents()
                     // Update display.
                     guard searchController.searchBar.text == searchText else { return }

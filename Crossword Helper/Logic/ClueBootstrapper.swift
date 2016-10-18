@@ -9,6 +9,7 @@ import Foundation
 import SQLite
 import Zip
 
+
 // TODO: Abstract all of this the hell out.
 class ClueBootstrapper {
     func bootstrap() {
@@ -17,24 +18,19 @@ class ClueBootstrapper {
         let unzipFile = unzipDirectory.appendingPathComponent("culled_clues.csv")
         let resourceString = try! String(contentsOf: unzipFile)
         let mapper: (String) -> [String:Any] = {[
-            "clue": $0.components(separatedBy: ",")[0],
-            "answer": $0.components(separatedBy: ",")[1],
-            "answerLength": $0.components(separatedBy: ",")[1].lengthOfBytes(using: .utf8)
+            ClueAnswerPair.columns.clue.template: $0.components(separatedBy: ",")[0],
+            ClueAnswerPair.columns.answer.template: $0.components(separatedBy: ",")[1],
+            ClueAnswerPair.columns.answerLength.template: $0.components(separatedBy: ",")[1].lengthOfBytes(using: .utf8)
         ]}
         let strings = resourceString
             .components(separatedBy: "\n")
             .filter({ $0.components(separatedBy: ",").count == 2 })
             .map(mapper)
         
-        let users = Table("clues")
-        let clueColumn = Expression<String>("clue")
-        let answerColumn = Expression<String>("answer")
-        let answerLengthColumn = Expression<Int>("answerLength")
-        
-        try! db.run(users.create { t in
-            t.column(answerColumn)
-            t.column(clueColumn)
-            t.column(answerLengthColumn)
+        try! db.run(ClueAnswerPair.table.create { t in
+            t.column(ClueAnswerPair.columns.clue)
+            t.column(ClueAnswerPair.columns.answer)
+            t.column(ClueAnswerPair.columns.answerLength)
         })
         
         let stmt = try! db.prepare("INSERT INTO clues (answer, clue, answerLength) VALUES (?, ?, ?)")
@@ -47,9 +43,9 @@ class ClueBootstrapper {
         chunks.forEach { chunk in
             try! db.transaction {
                 chunk.forEach {
-                    let clue = $0["clue"] as! String
-                    let answer = $0["answer"] as! String
-                    let length = $0["answerLength"] as! Int
+                    let clue = $0[ClueAnswerPair.columns.clue.template] as! String
+                    let answer = $0[ClueAnswerPair.columns.answer.template] as! String
+                    let length = $0[ClueAnswerPair.columns.answerLength.template] as! Int
                     try! stmt.run(answer, clue, length)
                 }
             }

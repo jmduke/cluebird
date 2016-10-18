@@ -139,45 +139,45 @@
 				268528F71DA351F900BF21E9 /* Sequence+Extensions.swift */,
 				264D00531DA428F50066FE34 /* String+Extensions.swift */,
 			);
-			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		268528F91DA3526800BF21E9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2610BFE51DAD47580073B991 /* ClueAnswerPair.swift */,
 				268528FA1DA3528200BF21E9 /* AnswerResult.swift */,
+				2610BFE51DAD47580073B991 /* ClueAnswerPair.swift */,
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		268528FC1DA3529900BF21E9 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				268528FD1DA352A500BF21E9 /* AnswerResultSortingMethod.swift */,
 				264D00571DA42F4C0066FE34 /* AnswerResultFilteringMethod.swift */,
+				268528FD1DA352A500BF21E9 /* AnswerResultSortingMethod.swift */,
 			);
-			name = Enums;
+			path = Enums;
 			sourceTree = "<group>";
 		};
 		268528FF1DA3548C00BF21E9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				268529001DA3549800BF21E9 /* SortingMethodPopoverView.swift */,
 				268529081DA3569500BF21E9 /* AnswerResultCell.swift */,
 				264D00551DA42DE30066FE34 /* FilteringMethodPopoverView.swift */,
+				268529001DA3549800BF21E9 /* SortingMethodPopoverView.swift */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		268529021DA354A200BF21E9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2605EE761DA6B4AF002D31F8 /* BaseClueTableViewController.swift */,
 				26883FF21D9C5F31008E8710 /* ClueSearchTableViewController.swift */,
 				26072E6E1DA5B267004F4E7F /* FittingAnswerTableViewController.swift */,
-				2605EE761DA6B4AF002D31F8 /* BaseClueTableViewController.swift */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		268529031DA3553B00BF21E9 /* Logic */ = {
@@ -187,7 +187,7 @@
 				26FD402D1D9D7AD0001D2AB8 /* ClueSearcher.swift */,
 				2610BFE71DAD4F360073B991 /* Storage.swift */,
 			);
-			name = Logic;
+			path = Logic;
 			sourceTree = "<group>";
 		};
 		26883FB61D9C5C3F008E8710 = {
@@ -196,9 +196,9 @@
 				26883FC11D9C5C3F008E8710 /* Crossword Helper */,
 				26883FD81D9C5C3F008E8710 /* Crossword HelperTests */,
 				26883FE31D9C5C3F008E8710 /* Crossword HelperUITests */,
-				26883FC01D9C5C3F008E8710 /* Products */,
-				6CB3B0628F078BDF735BE697 /* Pods */,
 				0C6AAD7EAA2062DE094541B4 /* Frameworks */,
+				6CB3B0628F078BDF735BE697 /* Pods */,
+				26883FC01D9C5C3F008E8710 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,18 +215,18 @@
 		26883FC11D9C5C3F008E8710 /* Crossword Helper */ = {
 			isa = PBXGroup;
 			children = (
-				268529031DA3553B00BF21E9 /* Logic */,
 				268529021DA354A200BF21E9 /* Controllers */,
-				268528FF1DA3548C00BF21E9 /* Views */,
 				268528FC1DA3529900BF21E9 /* Enums */,
-				268528F91DA3526800BF21E9 /* Models */,
 				268528F61DA351C600BF21E9 /* Extensions */,
+				268529031DA3553B00BF21E9 /* Logic */,
+				268528F91DA3526800BF21E9 /* Models */,
+				268528FF1DA3548C00BF21E9 /* Views */,
 				26883FC21D9C5C3F008E8710 /* AppDelegate.swift */,
-				26883FC81D9C5C3F008E8710 /* Main.storyboard */,
 				26883FCB1D9C5C3F008E8710 /* Assets.xcassets */,
-				26883FCD1D9C5C3F008E8710 /* LaunchScreen.storyboard */,
-				26883FD01D9C5C3F008E8710 /* Info.plist */,
 				26D540EB1DABEF6300E9A22E /* Constants.swift */,
+				26883FD01D9C5C3F008E8710 /* Info.plist */,
+				26883FCD1D9C5C3F008E8710 /* LaunchScreen.storyboard */,
+				26883FC81D9C5C3F008E8710 /* Main.storyboard */,
 				268680311DB3EF13007AFC79 /* clues.sqlite3.zip */,
 			);
 			path = "Crossword Helper";
@@ -618,6 +618,7 @@
 				26883FC91D9C5C3F008E8710 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		26883FCD1D9C5C3F008E8710 /* LaunchScreen.storyboard */ = {
@@ -626,6 +627,7 @@
 				26883FCE1D9C5C3F008E8710 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
