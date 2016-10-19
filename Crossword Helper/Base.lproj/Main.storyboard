@@ -34,11 +34,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="t5O-HK-Mvm">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableViewCell" id="t5O-HK-Mvm">
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="t5O-HK-Mvm" id="r5u-qK-XSK">
-                                    <frame key="frameInset" width="375" height="44"/>
+                                    <frame key="frameInset" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -63,11 +63,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="XOf-1Q-9Xo">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableViewCell" id="XOf-1Q-9Xo">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XOf-1Q-9Xo" id="6gt-aM-UU0">
-                                    <frame key="frameInset" width="375" height="44"/>
+                                    <frame key="frameInset" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -101,7 +101,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sPR-02-ufm" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Search by Clue" image="search@30" id="bso-yq-HZi"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hsn-qM-PNv">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Hsn-qM-PNv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -120,7 +120,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="L02-ch-pN2" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Fill in the Blanks" image="book@30" id="iDp-p6-CVg"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cpV-G5-SIl">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="cpV-G5-SIl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

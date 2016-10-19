@@ -23,13 +23,13 @@ enum AnswerResultFilteringMethod {
     
     var title: String {
         switch self {
-        case .all: return "All"
+        case .all: return "All".localized()
         case .numberOfLetters(let number): return String(describing: number)
         }
     }
     
     init(rawValue: String) {
-        if rawValue == "All" {
+        if rawValue == "All".localized() {
             self = .all
         } else {
             self = .numberOfLetters(Int(rawValue)!)

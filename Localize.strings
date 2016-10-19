@@ -1,0 +1,12 @@
+" +\(answer.clues.count - 1) other answers" = " +\(answer.clues.count - 1) other answers";
+"All" = "All";
+"Failed to unzip file." = "Failed to unzip file.";
+"Failed to zip file." = "Failed to zip file.";
+"File not found." = "File not found.";
+"No results found for '\(searchController.searchBar.text!)'." = "No results found for '\(searchController.searchBar.text!)'.";
+"Number of Letters" = "Number of Letters";
+"Search by typing in spaces for missing letters, e.g. 'LA__ERS' for 'LADDERS'." = "Search by typing in spaces for missing letters, e.g. 'LA__ERS' for 'LADDERS'.";
+"Searching" = "Searching";
+"Sort by" = "Sort by";
+"This takes a while, but only needs to happen once." = "This takes a while, but only needs to happen once.";
+"Type a clue in the search box (e.g. '60 minuti')" = "Type a clue in the search box (e.g. '60 minuti')";

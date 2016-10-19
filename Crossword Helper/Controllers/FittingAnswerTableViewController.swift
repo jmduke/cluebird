@@ -27,6 +27,6 @@ class FittingAnswerTableViewController: BaseClueTableViewController {
     }
     
     override func getEmptyStateText() -> String {
-        return (searchController.searchBar.text ?? "").lengthOfBytes(using: .utf8) > clueSearcher.MINIMUM_SEARCH_LENGTH ? "No results found for '\(searchController.searchBar.text!)'." : "Search by typing in spaces for missing letters, e.g. 'LA__ERS' for 'LADDERS'."
+        return (searchController.searchBar.text ?? "").lengthOfBytes(using: .utf8) > clueSearcher.MINIMUM_SEARCH_LENGTH ? "No results found for '\(searchController.searchBar.text!)'.".localized() : "Search by typing in spaces for missing letters, e.g. 'LA__ERS' for 'LADDERS'.".localized()
     }
 }

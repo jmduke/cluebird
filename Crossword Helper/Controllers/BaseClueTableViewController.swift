@@ -10,6 +10,7 @@ import Async
 import DZNEmptyDataSet
 import Firebase
 import Foundation
+import Localize_Swift
 import MBProgressHUD
 import Popover
 import UIKit
@@ -68,7 +69,7 @@ class BaseClueTableViewController: UITableViewController, UISearchBarDelegate, U
             Async.main {
                 if self.progressView == nil || self.progressView!.alpha == CGFloat(0) {
                     self.progressView = MBProgressHUD.showAdded(to: self.view, animated: true)
-                    self.progressView?.label.text = "Searching"
+                    self.progressView?.label.text = "Searching".localized()
                 }
                 UIApplication.shared.beginIgnoringInteractionEvents()
                 }.background {_ in
@@ -149,7 +150,7 @@ class BaseClueTableViewController: UITableViewController, UISearchBarDelegate, U
         // Removes cell separators.
         self.tableView.tableFooterView = UIView()
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Sort by", style: UIBarButtonItemStyle.plain, target: self, action: #selector(ClueSearchTableViewController.showSortingPopover))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Sort by".localized(), style: UIBarButtonItemStyle.plain, target: self, action: #selector(ClueSearchTableViewController.showSortingPopover))
     }
     
     func changeSortingMethod(sender: UIButton) {

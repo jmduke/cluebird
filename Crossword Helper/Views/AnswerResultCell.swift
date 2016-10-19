@@ -16,7 +16,7 @@ class AnswerResultCell: UITableViewCell {
         
         // Enrich the data.
         detailTextLabel?.text = answer.clues.count > 1 ?
-            answer.clues[0] + " +\(answer.clues.count - 1) other answers" :
+            answer.clues[0] + " +\(answer.clues.count - 1) other answers".localized() :
             answer.clues[0]
     }
     

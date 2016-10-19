@@ -10,6 +10,7 @@
 		220AB900588010BF66D1EC1E /* Pods_Crossword_HelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3957469229980F3FE45234E4 /* Pods_Crossword_HelperTests.framework */; };
 		2605EE771DA6B4AF002D31F8 /* BaseClueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2605EE761DA6B4AF002D31F8 /* BaseClueTableViewController.swift */; };
 		26072E6F1DA5B267004F4E7F /* FittingAnswerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26072E6E1DA5B267004F4E7F /* FittingAnswerTableViewController.swift */; };
+		260BF6C71DB83711002CE191 /* Localize.strings in Resources */ = {isa = PBXBuildFile; fileRef = 260BF6C61DB83711002CE191 /* Localize.strings */; };
 		2610BFE61DAD47580073B991 /* ClueAnswerPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2610BFE51DAD47580073B991 /* ClueAnswerPair.swift */; };
 		2610BFE81DAD4F360073B991 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2610BFE71DAD4F360073B991 /* Storage.swift */; };
 		264D00541DA428F50066FE34 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264D00531DA428F50066FE34 /* String+Extensions.swift */; };
@@ -57,6 +58,7 @@
 		0C6F2FB5E8EE77E7859FE4AB /* Pods_Crossword_HelperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crossword_HelperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2605EE761DA6B4AF002D31F8 /* BaseClueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClueTableViewController.swift; sourceTree = "<group>"; };
 		26072E6E1DA5B267004F4E7F /* FittingAnswerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FittingAnswerTableViewController.swift; sourceTree = "<group>"; };
+		260BF6C61DB83711002CE191 /* Localize.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localize.strings; sourceTree = "<group>"; };
 		2610BFE51DAD47580073B991 /* ClueAnswerPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClueAnswerPair.swift; sourceTree = "<group>"; };
 		2610BFE71DAD4F360073B991 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		264D00531DA428F50066FE34 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 		26883FB61D9C5C3F008E8710 = {
 			isa = PBXGroup;
 			children = (
+				260BF6C61DB83711002CE191 /* Localize.strings */,
 				26883FC11D9C5C3F008E8710 /* Crossword Helper */,
 				26883FD81D9C5C3F008E8710 /* Crossword HelperTests */,
 				26883FE31D9C5C3F008E8710 /* Crossword HelperUITests */,
@@ -381,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260BF6C71DB83711002CE191 /* Localize.strings in Resources */,
 				26883FCF1D9C5C3F008E8710 /* LaunchScreen.storyboard in Resources */,
 				268680321DB3EF13007AFC79 /* clues.sqlite3.zip in Resources */,
 				26883FCC1D9C5C3F008E8710 /* Assets.xcassets in Resources */,

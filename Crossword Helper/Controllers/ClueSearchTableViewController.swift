@@ -29,7 +29,7 @@ class ClueSearchTableViewController: BaseClueTableViewController {
     }
     var filterButton: UIBarButtonItem = {
         let button = UIBarButtonItem(
-            title: "Number of Letters",
+            title: "Number of Letters".localized(),
             style: .plain,
             target: nil,
             action: #selector(ClueSearchTableViewController.showFilteringPopover)
@@ -38,7 +38,7 @@ class ClueSearchTableViewController: BaseClueTableViewController {
     }()
     
     override func getEmptyStateText() -> String {
-        return (searchController.searchBar.text ?? "").lengthOfBytes(using: .utf8) > clueSearcher.MINIMUM_SEARCH_LENGTH ? "No results found for '\(searchController.searchBar.text!)'." : "Type a clue in the search box (e.g. '60 minuti')"
+        return (searchController.searchBar.text ?? "").lengthOfBytes(using: .utf8) > clueSearcher.MINIMUM_SEARCH_LENGTH ? "No results found for '\(searchController.searchBar.text!)'.".localized() : "Type a clue in the search box (e.g. '60 minuti')".localized()
     }
     override func findMatchingAnswers(searchText: String) -> [[AnswerResult]] {
         // Grab matching clues.
@@ -71,7 +71,7 @@ class ClueSearchTableViewController: BaseClueTableViewController {
                 let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
                 hud.label.text = "Loading data"
                 hud.isUserInteractionEnabled = false
-                hud.detailsLabel.text = "This takes a while, but only needs to happen once."
+                hud.detailsLabel.text = "This takes a while, but only needs to happen once.".localized()
                 }.background {_ in
                     bootstrapper.bootstrap()
                 }.main {

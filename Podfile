@@ -11,6 +11,7 @@ target 'Crossword Helper' do
   pod 'Fabric'
   pod 'Firebase/Core'
   pod 'Firebase/AdMob'
+  pod 'Localize-Swift', '~> 1.6'
   pod 'MBProgressHUD'
   pod 'Popover', :git => 'https://github.com/corin8823/Popover.git'
   # Pods for Crossword Helper
